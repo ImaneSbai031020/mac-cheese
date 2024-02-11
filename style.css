@@ -1,0 +1,127 @@
+
+body{
+    background: url(hermes-rivera-7ld9_oZDdQs-unsplash.jpg) center/cover no-repeat fixed;
+    font: 1em/1.618 "Inter", sans-serif;
+     
+   
+}
+
+h2{
+    font-family: "Yellowtail", sans-serif;
+    font-size: 3rem;
+    color: #3E3232;
+    text-align: center;
+    margin-top: 20px;
+  
+}
+
+.tag-lines{
+    position: relative;
+    margin: 5px 0 7px 2px;       
+}
+
+.tag{
+  
+        display: inline-block;
+        background-color: #fbc02d;
+        color: #fff;
+        font-size: 1rem;
+        padding: 8px 15px;
+        border-radius: 20px;
+        margin: 5px;
+        text-transform: uppercase;
+    
+}
+
+span.tag {
+    align-items: center;
+  background-color: hsl(0deg 0% 96% / 85%);
+  border-radius: 5px;
+  color: #4a4a4a;
+  display: inline-flex;
+  font-size: 11px;
+  height: 20px;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 6px;
+  padding-right: 6px;
+  white-space: nowrap;
+  font-family: Roboto Condensed;
+  margin-right: 2px;
+  text-shadow: 0.5px 0.5px 0.5px rgb(255 255 255 / 50%);
+}
+
+
+
+
+
+summary::-webkit-details-marker {
+    display: none
+  }
+  summary:after {
+    background: #1DE9B6; 
+    border-radius: 5px; 
+    content: "+"; 
+    color: #fff; 
+    float: left; 
+    font-size: 1.3em; 
+    margin: -5px 10px 0 0; 
+    padding: 0; 
+    text-align: center; 
+    width: 20px;
+    
+  }
+  details[open] summary:after {
+    content: "-";
+    
+  }
+  details {
+      border: 1px solid #E1E1E1;
+      border-radius: 5px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+      color: #363636;
+      margin: 0 0 .4em;
+      padding: 1%;
+      backdrop-filter: blur(20px);
+  }
+
+ 
+
+  .recipt-card{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+   
+  ul {
+    position: relative;
+    background: #fff;
+  }
+   ul:hover li {
+    opacity: 0.2;
+  }
+   ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+  }
+  ul li:hover {
+    transform: scale(1.1);
+    z-index: 5;
+    background: #F9EFDB;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    color: #191919;
+    opacity: 1;
+    
+  }
+ 
+    
